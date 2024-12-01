@@ -8,12 +8,12 @@ package br.com.unimotors.view;
  *
  * @author lucas
  */
-public class CadLojas extends javax.swing.JFrame {
+public class CadUsuário extends javax.swing.JFrame {
 
     /**
-     * Creates new form CadLojas
+     * Creates new form CadUsuário
      */
-    public CadLojas() {
+    public CadUsuário() {
         initComponents();
     }
 
@@ -27,8 +27,7 @@ public class CadLojas extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Cadatro de Concessionárias");
-        setPreferredSize(new java.awt.Dimension(1024, 768));
+        setTitle("Cadastro de Usuários");
         setResizable(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
